@@ -1,0 +1,22 @@
+{
+  "name": "vue-ssr-setup",
+  "version": "1.0.0",
+  "description": "Vue SSR tool",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "vss": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node ./bin/index.js serve --mode development"
+  },
+  "keywords": [
+    "Vue",
+    "SSR"
+  ],
+  "author": "xxTab",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
